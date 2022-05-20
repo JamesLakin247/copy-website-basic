@@ -3,3 +3,59 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation */
+
+.navigation {
+    width: 100%;
+    background-color: lightblue;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__logo {
+    width: 300px;
+}
+
+.navigation__logo--img {
+    width: 100%;
+}
+
+.navigation__list-item {
+    padding-left: 16px; 
+}
+
+.navigation__list-link {
+    font-size: 24px;
+    color: black;
+}
+
+.navigation__list-item--primary {
+    padding-left: 24px;
+}
+
+.navigation__list-link--primary {
+    font-size: 24px;
+    border: 2px solid darkblue;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: darkblue;
+    color: #fff;
+}
