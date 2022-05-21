@@ -12,12 +12,21 @@ a {
     text-decoration: none;
 }
 
+.row {
+    width: 100%;
+    max-width: 1200px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
 /* Navigation */
 
 .navigation {
     width: 100%;
-    background-color: lightblue;
-    height: 80px;
+    background-color: #cafdff;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,9 +62,129 @@ a {
 
 .navigation__list-link--primary {
     font-size: 24px;
-    border: 2px solid darkblue;
+    border: 2px solid #05c7cf;
     padding: 10px;
     border-radius: 4px;
-    background-color: darkblue;
+    background-color: #05c7cf;
     color: #fff;
+}
+
+.navigation__list-link--primary:hover,
+.navigation__list-link:hover  {
+    opacity: 0.8;
+}
+
+/* Landing Page */
+
+.landing-page__container {
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page {
+    padding: 24px;
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-page__figure--img {
+    width: 100%;
+}
+
+    /* landing page text */
+
+.landing-page__heading {
+    font-size: 72px;
+}
+
+.landing-page__para {
+    font-size: 36px;
+    padding: 16px 0 24px 0;
+}
+
+.landing-page__button {
+    padding: 8px 16px;
+    font-size: 24px;
+    background-color: #05c7cf;
+    border: none;
+    color: #fff;
+}
+
+/* About section */
+
+#about {
+    background-color: #f8ffdc;
+    padding: 48px 0;
+}
+
+.about__heading {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__para--wrapper {
+    padding: 0 24px;
+}
+
+.about__para {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.about__figure {
+    padding: 0 24px;
+}
+
+.about__figure--img {
+    width: 100%;
+}
+
+/* Discord section */
+
+#discord {
+    background-color: #cefeff;
+    padding: 48px 0;
+}
+
+.discord__heading {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.discord__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discord__para--wrapper {
+    padding: 0 24px;
+}
+
+.discord__para {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.discord__figure {
+    padding: 0 24px;
+}
+
+.discord__figure--img {
+    width: 100%;
 }
