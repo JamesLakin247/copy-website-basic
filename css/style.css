@@ -193,6 +193,7 @@ button:hover {
 
 #contact {
     background-color: #dce9ff;
+    padding: 48px 0;
 }
 
 .contact__heading {
@@ -201,16 +202,30 @@ button:hover {
 }
 
 .contact__form {
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
+.contact__form--email,
+.contact__form--message {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+.contact__form--message {
+    height: 100px;
+}
+
 .contact-us__button {
     background-color: #05c7cf;
     color: #fff;
     border: none;
+    padding: 8px 16px;
+    font-size: 24px;
 }
 
 /* Footer */
